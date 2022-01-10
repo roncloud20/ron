@@ -183,6 +183,27 @@ header .header-cases {
 	text-transform: uppercase;
 }
 
+.article {
+	margin: auto 40px;
+}
+
+.article h3 {
+	font-family: Poppins;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 100px;
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.article p {
+	font-family: poppins;
+	text-align: justify;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+
 @media only screen and (min-width: 1000px) {
 	.wrapper {
 		width: 1000px;

@@ -1,3 +1,6 @@
+import React from "react";
+import { NavLink } from 'react-router-dom';
+
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
@@ -10,11 +13,11 @@ function Footer(){
     return (
         <footer>
         <ul className="footer-links-main">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cases</a></li>
-            <li><a href="#">Porfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/cases'>Cases</NavLink></li>
+            <li><NavLink to='/porfolio'>Porfolio</NavLink></li>
+            <li><NavLink to='/about'>About</NavLink></li>
+            <li><NavLink to='/content'>Contact</NavLink></li>
         </ul>
         {/* <ul className="footer-links-cases">
             <li><p>Latest Cases </p></li>

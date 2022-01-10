@@ -9,9 +9,13 @@ function About() {
             <main>
                 <Banner/>
                 <div className="wrapper">
-                    <section className="index-links">
+                    <section className="article">
+                        <h3>
+                            About RON
+                        </h3>
                         <p>
                             Hi. Thanks for checking out my website and project work. 
+                            My names are <b>Raymond Olugbenga Nicholas,</b> 
                             I’m a freelance web developer and educator with a background in graphic design, UI &amp; UX, web development and training. 
                             I live and work in Lagos, Nigeria.
                         </p>
