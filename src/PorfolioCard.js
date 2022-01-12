@@ -8,17 +8,16 @@ const PorfolioCard = ({id, name, businessType, testimony, clientImage}) => {
         //   <li className="Add"><div>+ Use</div> </li>
         //   <li className="Style-name">{stylename}</li>
         // </div>
-        <div className='clientsList'>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src={clientImage} alt={name} />
-                    </div>
-                    <div class="flip-card-back">
-                        <h3>{name}</h3>
-                        <p>{businessType}</p>
-                        <p>{testimony}</p>
-                    </div>
+        
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src={clientImage} alt={name} />
+                </div>
+                <div class="flip-card-back">
+                    <h3>{name}</h3>
+                    <p>{businessType}</p>
+                    <p>{testimony}</p>
                 </div>
             </div>
         </div>

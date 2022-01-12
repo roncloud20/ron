@@ -16,8 +16,9 @@ const Porfolio = () => {
                         <h3>
                             Porfolio
                         </h3>
-                        
-                        <PorfolioCardList clients={clients} />
+                        <div className="clientsList">
+                            <PorfolioCardList clients={clients} />
+                        </div>
                     </section>
                 </div>
             </main>
