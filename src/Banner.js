@@ -5,7 +5,7 @@ function Banner () {
                 <h2>I AM A FREELANCE WEB DEVELOPER</h2>
                 <h1>
                     With specialty in front-end, functionality, 
-                    Graphic Design and Educator
+                    Graphic Design and Trainer
                 </h1>
             </div>
         </section>

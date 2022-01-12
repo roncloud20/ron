@@ -2,6 +2,8 @@ import React from "react";
 import Header from './Header';
 import Footer from './Footer';
 import Banner from './Banner';
+import PorfolioCardList from "./PorfolioCardList";
+import { clients } from "./clients";
 
 const Porfolio = () => {
     return (
@@ -14,6 +16,8 @@ const Porfolio = () => {
                         <h3>
                             Porfolio
                         </h3>
+                        
+                        <PorfolioCardList clients={clients} />
                     </section>
                 </div>
             </main>
