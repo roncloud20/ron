@@ -288,8 +288,7 @@ footer ul  li a{
 	height: 280px;
 	perspective: 1000px;
 	display: inline-block;
-	margin: 10px;
-	text-align: center;
+	margin: 20px;
   }
   
   .flip-card-inner {
@@ -328,17 +327,18 @@ footer ul  li a{
 
   /* My codes */
 .article {
-	margin: auto 40px;
+	margin: auto 20px;
 }
 
 .article h3 {
 	font-family: Poppins;
 	font-size: 28px;
 	font-weight: 600;
-	line-height: 100px;
+	/* line-height: 100px; */
 	color: #111;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: 10px;
 }
 
 .article p {
@@ -350,8 +350,8 @@ footer ul  li a{
 
 .clientsList {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+	text-align: center;
 }
